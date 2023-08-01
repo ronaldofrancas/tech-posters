@@ -1,5 +1,5 @@
 ## Introdução
-##### Neste projeto, alguns conceitos de CSS e JavaScript foram colocados em prática, com foco especial na responsividade e na criação de um modal. Em linhas gerais, trata-se de uma rede social onde é possível seguir usuários, postar e curtir conteúdos textuais.
+#### Neste projeto, alguns conceitos de CSS e JavaScript foram colocados em prática, com foco especial na responsividade e na criação de um modal. Em linhas gerais, trata-se de uma rede social onde é possível seguir usuários, postar e curtir conteúdos textuais.
 
 ## Estilos e Comportamento Visual
 #### 🎨 Estilo do Menu de Navegação
@@ -12,4 +12,4 @@
 
 ## Funcionalidades
 
-##### Ao clicar no botão "Abrir Post", é aberto o conteúdo completo da referida postagem em um modal. Vale ressaltar que, esta aplicação possui alguns posts configurados em `src\scripts\database.js` que serão renderizados em tela na seção de "Posts".
+#### Ao clicar no botão "Abrir Post", é aberto o conteúdo completo da referida postagem em um modal. Vale ressaltar que, esta aplicação possui alguns posts configurados em `src\scripts\database.js` que serão renderizados em tela na seção de "Posts".
