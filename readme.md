@@ -1,5 +1,5 @@
 ## Introdução
-##### Neste projeto, foi colocado em prática os conceitos de CSS e JavaScript estudados até o presente momento, com foco especial na responsividade e na criação de um modal para a nossa aplicação.
+##### Neste projeto, alguns conceitos de CSS e JavaScript foram colocados em prática, com foco especial na responsividade e na criação de um modal. Em linhas gerais, trata-se de uma rede social onde é possível seguir usuários, postar e curtir conteúdos textuais.
 
 ## Estilos e Comportamento Visual
 #### 🎨 Estilo do Menu de Navegação
