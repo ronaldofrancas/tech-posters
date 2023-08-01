@@ -1,0 +1,107 @@
+@media (min-width: 375px) {
+    .modal__button--close {
+        margin-left: 277px;
+    }
+}
+
+@media (min-width: 425px) {
+    .modal__button--close {
+        margin-left: 316px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header__container--content {
+        padding: 2rem 3rem;
+    }
+    .main__container {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .responsive__container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+    }
+    .form__container {
+        width: 40vw;
+    }
+    .aside__container {
+        margin: 0;
+        width: 41vw;
+        gap: 2.7rem;
+    }
+    .aside__container > h2 {
+        margin-top: 0.35rem;
+    }
+    .aside__list {
+        margin: 0;
+        overflow-x: hidden;
+        width: min-content;
+        flex-direction: column;
+        gap: 3.2rem;
+    }
+    .aside__list--items {
+        width: 205px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .aside__container--users {
+        width: 215px;
+    }
+    .aside__button--follow {
+        position: absolute;
+        right: 50px;
+        margin-top: -15px;
+    }
+    .posts__container {
+        margin-top: -1rem;
+    }
+    .modal__controller {
+        margin-top: 6rem;
+        width: 50vw;
+    }
+    .modal__button--close {
+        margin-left: 360px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header__container--content {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 6rem;
+        padding-right: 7.3rem;
+    }
+    .main__container {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .form__container {
+        width: 45vw;
+    }
+    .form__button,
+    .posts__button--like,
+    .posts__button--modalOpen,
+    .modal__button--close {
+        cursor: pointer;
+    }
+    .aside__container {
+        width: 30vw;
+    }
+    .aside__button--follow {
+        right: 99px;
+        cursor: pointer;
+    }
+    .posts__container--content {
+        width: 45vw;
+    }
+    .modal__controller {
+        width: 45vw;
+        padding-bottom: 1.25rem;
+    }
+    .modal__button--close {
+        margin-left: 590px;
+    }
+}

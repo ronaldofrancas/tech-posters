@@ -1,0 +1,112 @@
+:root {
+    --brand-1: #4263EB;
+    --brand-2: #364FC7;
+
+    --like: #D7443E;
+    --white-fixed: #FFFFFF;
+
+    --grey-0: #0A0C0D;
+    --grey-1: #212529;
+    --grey-2: #495057;
+    --grey-3: #868E96;
+    --grey-4: #DEE2E6;
+    --grey-5: #F8F9FA;
+    --grey-opacity: rgba(33, 37, 41, 0.5);
+
+    --weight-400: 400;
+    --weight-600: 600;
+    --weight-700: 700;
+
+    --title-1: 1.75rem;
+    --title-2: 1.25rem;
+
+    --text-1: 1rem;
+    --text-2: 0.875rem;
+    --text-3: 0.75rem;
+}
+
+.header__container {
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    background-color: var(--grey-1);
+}
+.header__container--content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1.5rem;
+}
+.header__content {
+    color: var(--white-fixed);
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 6.5rem; 
+    padding-left: 1.5rem; 
+    padding-right: 1.5rem; 
+}
+.user__container {
+    display: flex;
+    width: max-content;
+    gap: 0.8rem;
+}
+.user__container--data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 130%;
+}
+
+figure > img {
+    width: 50px;
+}
+
+input, textarea {
+    resize: none;
+    outline: none;
+    line-height: 150%;
+    border-radius: 4px;
+    padding: 0.65rem 1.25rem;
+    font-size: var(--text-2);
+    font-weight: var(--weight-400);
+    border: 2px solid var(--grey-4);
+    background-color: var(--white-fixed);
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: var(--text-2);
+    font-weight: var(--weight-400);
+    color: var(--grey-3);
+}
+
+input:focus,
+textarea:focus {
+    border-color: var(--brand-1);
+}
+
+h1 {
+    line-height: 1.5rem;
+    font-size: var(--title-2);
+    font-weight: var(--weight-700);
+}
+
+h2 {
+    font-size: var(--text-1);
+    font-weight: var(--weight-600);
+}
+
+span {
+    font-size: var(--text-2);
+    color: var(--grey-2);
+}
+
+p {
+    line-height: 1.5rem;
+    font-size: var(--text-3);
+    font-weight: var(--weight-400);
+    color: var(--grey-2);
+}
