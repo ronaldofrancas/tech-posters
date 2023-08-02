@@ -13,7 +13,7 @@
 ## Funcionalidades
 
 #### 👥 Seguir Usuários
-##### Os usuários têm a opção de seguir usuários fictícios fornecidos pelas base de dados da aplicação.
+##### Os usuários têm a opção de seguir usuários fictícios fornecidos pela base de dados da aplicação.
 
 #### 📝 Postagem de Textos
 ##### Os usuários podem compartilhar seus pensamentos e ideias através de postagens curtas.
@@ -24,5 +24,5 @@
 #### 🔍 Visualização em Modal
 ##### Ao clicar no botão "Abrir Post", um modal é exibido com o conteúdo completo do post, proporcionando uma experiência de leitura mais detalhada.
 
-#### 💬 Interação com Postagens
-##### Os usuários podem curtir suas postagens ou aquelas fornecidas pela base de dados da aplicação.
+#### ❤️ Interação com Postagens
+##### Os usuários podem curtir suas próprias postagens ou aquelas fornecidas pela base de dados da aplicação.
