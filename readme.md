@@ -1,15 +1,28 @@
 ## Introdução
-#### Neste projeto, alguns conceitos de CSS e JavaScript foram colocados em prática, com foco especial na responsividade e na criação de um modal. Em linhas gerais, trata-se de uma rede social onde é possível seguir usuários, postar e curtir conteúdos textuais.
+##### Este projeto é uma plataforma interativa com uma interface inspirada no Twitter, onde os usuários podem se conectar, compartilhar seus pensamentos e ideias através de postagens curtas. Ao navegar pelas publicações dos outros usuários, você terá a oportunidade de curtir e expressar seu apoio ou apreço por meio de uma simples interação. Fique à vontade para explorar esta aplicação. Divirta-se! 
 
 ## Estilos e Comportamento Visual
 #### 🎨 Estilo do Menu de Navegação
 
 ##### O menu de navegação acompanha a tela do usuário conforme este interage com a página usando scroll para baixo. Ou seja, quando o usuário descer a página, o menu de navegação irá acompanhá-lo, mantendo-se fixo no topo do documento.
 
-#### 🎨 Estilo da área de sugestões de usuários
+#### 🎨 Estilo da Área de Sugestões de Usuários
 
-##### No desktop, teremos um bloco chamado "Sugestões para você seguir" no cato direito da tela. Nele, haverá uma lista de usuários sugeridos para seguir. No mobile, a área de sugestões estará posicionada abaixo do formulário de criação de post e seus elementos estarão alinhados horizontalmente.
+##### No desktop, temos um bloco chamado "Sugestões para você seguir" no canto direito da tela. Nele, haverá uma lista de usuários sugeridos para seguir. No mobile, a área de sugestões estará posicionada abaixo do formulário de criação de post e seus elementos estarão alinhados horizontalmente.
 
 ## Funcionalidades
 
-#### Ao clicar no botão "Abrir Post", é aberto o conteúdo completo da referida postagem em um modal. Vale ressaltar que, esta aplicação possui alguns posts configurados em `src\scripts\database.js` que serão renderizados em tela na seção de "Posts".
+#### 👥 Seguir Usuários
+##### Os usuários têm a opção de seguir usuários fictícios fornecidos pelas base de dados da aplicação.
+
+#### 📝 Postagem de Textos
+##### Os usuários podem compartilhar seus pensamentos e ideias através de postagens curtas.
+
+#### 👀 Prévia de Conteúdo
+##### As postagens são parcialmente renderizadas na timeline, permitindo que os usuários tenham uma prévia do conteúdo antes de abrir o post completo.
+
+#### 🔍 Visualização em Modal
+##### Ao clicar no botão "Abrir Post", um modal é exibido com o conteúdo completo do post, proporcionando uma experiência de leitura mais detalhada.
+
+#### 💬 Interação com Postagens
+##### Os usuários podem curtir suas postagens ou aquelas fornecidas pela base de dados da aplicação.
