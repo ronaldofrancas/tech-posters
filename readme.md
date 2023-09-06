@@ -1,28 +1,30 @@
-## Introdução
-##### Este projeto é uma plataforma interativa com uma interface inspirada no Twitter, onde os usuários podem se conectar, compartilhar seus pensamentos e ideias através de postagens curtas. Ao navegar pelas publicações dos outros usuários, você terá a oportunidade de curtir e expressar seu apoio ou apreço por meio de uma simples interação. Fique à vontade para explorar esta aplicação. Divirta-se! 
+## Introduction
 
-## Estilos e Comportamento Visual
-#### 🎨 Estilo do Menu de Navegação
+##### This project is an interactive platform with an interface inspired by Twitter, where users can connect, share their thoughts and ideas through short posts. When browsing other users' posts, you will have the opportunity to like and express your support or appreciation through a simple interaction. Feel free to explore this application. Have a good time! 
 
-##### O menu de navegação acompanha a tela do usuário conforme este interage com a página usando scroll para baixo. Ou seja, quando o usuário descer a página, o menu de navegação irá acompanhá-lo, mantendo-se fixo no topo do documento.
+## Styles and Visual Behavior
 
-#### 🎨 Estilo da Área de Sugestões de Usuários
+#### 🎨 Navigation Menu Style
 
-##### No desktop, temos um bloco chamado "Sugestões para você seguir" no canto direito da tela. Nele, haverá uma lista de usuários sugeridos para seguir. No mobile, a área de sugestões estará posicionada abaixo do formulário de criação de post e seus elementos estarão alinhados horizontalmente.
+##### The navigation menu accompanies the user's screen as he interacts with the page by scrolling down. That is, when the user scrolls down the page, the navigation menu will follow him, remaining fixed at the top of the document.
 
-## Funcionalidades
+#### 🎨 User Suggestions Area Style
 
-#### 👥 Seguir Usuários
-##### Os usuários têm a opção de seguir usuários fictícios fornecidos pela base de dados da aplicação.
+##### On desktop, we have a block called "Suggestions for you to follow" in the right corner of the screen. In it, there will be a list of suggested users to follow. On mobile, the suggestions area will be positioned below the post creation form and its elements will be aligned horizontally.
 
-#### 📝 Postagem de Textos
-##### Os usuários podem compartilhar seus pensamentos e ideias através de postagens curtas.
+## Functionalities
 
-#### 👀 Prévia de Conteúdo
-##### As postagens são parcialmente renderizadas na timeline, permitindo que os usuários tenham uma prévia do conteúdo antes de abrir o post completo.
+#### 👥 Follow Users
+##### Users have the option to follow fictitious users provided by the application's database.
 
-#### 🔍 Visualização em Modal
-##### Ao clicar no botão "Abrir Post", um modal é exibido com o conteúdo completo do post, proporcionando uma experiência de leitura mais detalhada.
+#### 📝 Text Posting
+##### Users can share their thoughts and ideas through short posts.
 
-#### ❤️ Interação com Postagens
-##### Os usuários podem curtir suas próprias postagens ou aquelas fornecidas pela base de dados da aplicação.
+#### 👀 Content Preview
+##### Posts are partially rendered on the timeline, allowing users to preview the content before opening the full post.
+
+#### 🔍 View in Modal
+##### When clicking on the "Open Post" button, a modal is displayed with the complete content of the post, providing a more detailed reading experience.
+
+#### ❤️ Interaction with Posts
+##### Users can like their own posts or those provided by the application's database.
